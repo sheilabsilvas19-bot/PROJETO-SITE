@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHEILA SILVA | Personal Trainer</title>
+    <style>    /* Estiliza o botão que abre o formulário */
+        summary {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-block;
+            list-style: none; /* Remove a setinha padrão no Chrome/Safari */
+        }
+        /* Oculta a setinha no Firefox */
+        summary::-webkit-details-marker {
+            display: none;
+        }
+        /* Estilo da caixa do formulário */
+        .box-formulario {
+        width: 800px;              /* Aumenta a largura de 250px para 450px */
+        max-width: 90vw;           /* Garante que não ultrapasse a tela no celular */
+        padding: 40px;             /* Aumenta o espaço interno nas bordas */
+        border: 10px solid #bc9ee4;
+        border-radius: 10px;
+        box-sizing: border-box;
+        background-color: rgba(255, 255, 255, 0.9);
+        margin-top: 15px;
+        }
+        .campo {
+            margin-bottom: 50px;
+        }
+        .campo input {
+            width: 100%;
+            padding: 15px;
+            box-sizing: border-box;}
+    </style>
+</head> <link rel="stylesheet" href="/stylles.css/style.css">
+<body>
+<style>
+    .cabecalho-personal h3,
+    .cabecalho-personal p{
+        margin: 0; /* Remove completamente o espaçamento */
+        color: rgb(98, 0, 255);
+    }
+</style>
+
+<center class="cabecalho-personal">
+    <i>
+        <h3>Sheila Silva</h3>
+        <p><i>Personal Trainer</i></p>
+    </i>
+</center>
+    <img src="/assets/WhatsApp Image 2026-11-08 at 13.21.59.jpeg" alt="logotipo" style="display: block; margin: 0 auto; width: 150px;">
+    <header>
+        <style>
+        .cabecalho-secoes{
+            color: #101011;
+            background-color: #8e69e6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: oblique;
+            font-size: 20px;
+        }
+        </style>
+        <div class="cabecalho-secoes">
+            <nav aria-label="Menu principal">
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="/treinos.html">TREINOS</a></li>
+                <li><a href="/contato.html">CONTATOS</a></li>
+        </ul>
+    </div>
+    </section>
+    <style>
+        .alinhamento{
+            display: flex;
+            justify-content: flex-end;
+            text-decoration: none;
+        }
+    </style>
+    <div class="alinhamento">
+        <section>
+    <ul style="list-style: none; padding: 0;">
+        <li><a href="#anamnese">FICHA AVALIATIVA</a></li>
+        <li><a href="#sobre">SOBRE MIM</a></li>
+        <li><a href="#servicos">SERVIÇOS</a></li>
+        <li><a href="#testemunhos">DEPOIMENTOS</a></li>
+        <li><a href="#cadastro">CADASTRO</a></li>
+        <li class="botao"><a href="/contato.html">AGENDE SUA CONSULTA</a></li>
+    </ul>
+</section>
+    </div>
+            <section class="hero" id="inicio">
+        <div>
+            <center>
+                <i><span class="etiqueta">Treino feito para você</span></i>
+                <h1>Alcance sua melhor </h1>
+            <h1>forma física no seu ritmo.</h1>
+            <p>Treino personalizado, acompanhamento online ou presencial e foco nos objetivos que fazem sentido para a sua vida.</p>
+            <a class="botao" href="#contato">Quero começar</a></center>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <section id="#anamnese">    
+        <h1>FICHA DE ANAMNESE E PRÉ-PARTICIPAÇÃO TREINAMENTO FÍSICO</h1>
+        <p>Preencher antes do início do programa de exercícios</p>
+        </section>
+
+        <style>
+        .caixa-cadastro{
+        background-color: rgb(208, 196, 219);
+        color: rgb(59, 38, 78);
+        font-family: 30px;
+        font-weight: bolder;
+    }
+        </style>
+
+        <section id="anamnese" class="ficha-avaliativa">
+            <details>
+                <summary>Abrir Formulário</summary>
+                <div class="caixa-cadastro">
+                <form class="box-formulario" action="#" method="POST">
+        <h2>1. IDENTIFICAÇÃO</h2>
+        <br>
+        <label for="name">NOME COMPLETO:</label>
+        <input type="text" id="name">
+        <br>
+        <br>
+        <label for="date">DATA DE NASCIMENTO:</label>
+        <input type="date" id="date">
+        <br>
+        <br>
+        <label for="numbers">IDADE:</label>
+        <input type="number" id="numbers">
+        <br>
+        <br>
+        <label for="date">DATA DO CADASTRO:</label>
+        <input type="date" id="date">
+        <br>
+        <br>
+        <label for="name">PROFISÃO:</label>
+        <input type="text" id="name">
+        <br>
+        <br>
+        <label for="telefone">CONTATO:</label>
+        <input type="tel" id="telefone">
+        <br>
+        <br>
+        <label for="email">EMAIL:</label>
+        <input type="email" id="email">
+        <br>
+        <br>
+        <h2>2. OBJETIVOS E EXPERIÊNCIA</h2>
+        <br>
+        <label for="objective">OBJETIVO:</label>
+        <select id="objective">
+            <br>
+            <option>Selecione...</option>
+            <option>Saúde</option>
+            <option>Força</option>
+            <option>Condicionamento</option>
+            <option>Hipertrofia</option>
+            <option>Mobilidade</option>
+            <option>Emagrecimento</option>
+        </select>
+        <br>
+        <br>
+        <label for="question">O QUE ESPERA ALCANÇAR?</label>
+        <input type="text" id="question">
+        <br>
+        <br>
+        <label for="si">JÁ PRATICOU EXERCÍCIOS?</label><br>
+        <input type="radio" name="exercicio" id="si">
+        <label for="si">SIM</label>
+        <input type="radio" name="exercicio" id="no">
+        <label for="no">NÃO</label>
+        <br>
+        <br>
+        <label for="question">QUAIS?</label>
+        <input type="text" id="question">
+        <br>
+        <br>
+        <label for="question">QUANTO TEMPO?</label>
+        <input type="text" id="question">
+        <br>
+        <br>
+        <label for="si">TREINA ATUALMENTE?</label><br>
+        <input type="radio" name="exercicio" id="si">
+        <label for="si">SIM</label>
+        <input type="radio" name="exercicio" id="no">
+        <label for="no">NÃO</label>
+        <br>
+        <br>
+        <label for="frequencia">FREQUENCIA (semanal):</label>
+        <input type="number" id="frequencia">
+        <br>
+        <br>
+        <label for="nome">MODALIDADE PREFERIDA</label>
+        <select id="nome">
+            <br>
+            <option>Selecione...</option>
+            <option>Funcionais</option>
+            <option>Flexibilidade e Mobilidade</option>
+            <option>Aeróbicos (Cardiorrespiratórios)</option>
+            <option>Força e Resistência Muscular:</option>
+            <option>Equilíbrio e Coordenação</option>
+        </select>
+        <br>
+        <br>
+        <h2>03 • TRIAGEM DE SAÚDE E SEGURANÇA</h2> 
+<h4><mark><i>Marque Sim ou Não. Se responder “Sim”, descreva a situação. Esta triagem não é diagnóstico nem substitui avaliação de saúde.</i></mark></h4> 
+
+<!-- Pergunta 1 -->
+    <p>
+        <label>Algum profissional de saúde recomendou avaliação ou supervisão antes de treinar?</label><br> 
+        <input type="radio" name="exercicio_01" id="si_01"> <label for="si_01">SIM</label> 
+        <input type="radio" name="exercicio_01" id="no_01"> <label for="no_01">NÃO</label> <br> 
+        <label for="descricao_01">DETALHES</label> <input type="text" id="descricao_01"> 
+    </p>
+
+<!-- Pergunta 2 -->
+    <p>
+        <label>Sente dor/pressão no peito em repouso ou durante esforço?</label><br> 
+        <input type="radio" name="exercicio_02" id="si_02"> <label for="si_02">SIM</label> 
+        <input type="radio" name="exercicio_02" id="no_02"> <label for="no_02">NÃO</label> <br> 
+        <label for="descricao_02">DETALHES</label> <input type="text" id="descricao_02"> 
+    </p>
+
+<!-- Pergunta 3 -->
+    <p>
+        <label>Apresenta desmaios, tonturas recorrentes ou falta de ar incomum?</label><br> 
+        <input type="radio" name="exercicio_03" id="si_03"> <label Gaming for="si_03">SIM</label> 
+        <input type="radio" name="exercicio_03" id="no_03"> <label for="no_03">NÃO</label> <br> 
+        <label for="descricao_03">DETALHES</label> <input type="text" id="descricao_03"> 
+    </p>
+
+<!-- Pergunta 4 -->
+    <p>
+        <label>Possui doença cardíaca, pressão arterial diagnosticada ou condição circulatória?</label><br> 
+        <input type="radio" name="exercicio_04" id="si_04"> <label for="si_04">SIM</label> 
+        <input type="radio" name="exercicio_04" id="no_04"> <label for="no_04">NÃO</label> <br> 
+        <label for="descricao_04">DETALHES</label> <input type="text" id="descricao_04"> 
+    </p>
+
+<!-- Pergunta 5 -->
+    <p>
+        <label>Possui diabetes, doença respiratória ou outra condição crônica?</label><br> 
+        <input type="radio" name="exercicio_05" id="si_05"> <label for="si_05">SIM</label> 
+        <input type="radio" name="exercicio_05" id="no_05"> <label for="no_05">NÃO</label> <br> 
+        <label for="descricao_05">DETALHES</label> <input type="text" id="descricao_05"> 
+    </p>
+
+<!-- Pergunta 6 -->
+    <p>
+        <label>Tem dor persistente, lesão atual ou limitação de movimento?</label><br> 
+        <input type="radio" name="exercicio_06" id="si_06"> <label for="si_06">SIM</label> 
+        <input type="radio" name="exercicio_06" id="no_06"> <label for="no_06">NÃO</label> <br> 
+        <label for="descricao_06">DETALHES</label> <input type="text" id="descricao_06"> 
+    </p>
+
+<!-- Pergunta 7 -->
+    <p>
+        <label>Fez cirurgia, internação ou ocorreu lesão importante recentemente?</label><br> 
+        <input type="radio" name="exercicio_07" id="si_07"> <label for="si_07">SIM</label> 
+        <input type="radio" name="exercicio_07" id="no_07"> <label for="no_07">NÃO</label> <br> 
+        <label for="descricao_07">DETALHES</label> <input type="text" id="descricao_07"> 
+    </p>
+
+<!-- Pergunta 8 -->
+    <p>
+        <label>Usa medicamentos regularmente que possam influenciar o exercício?</label><br> 
+        <input type="radio" name="exercicio_08" id="si_08"> <label for="si_08">SIM</label> 
+        <input type="radio" name="exercicio_08" id="no_08"> <label for="no_08">NÃO</label> <br> 
+        <label for="descricao_08">DETALHES</label> <input type="text" id="descricao_08"> 
+    </p>
+
+<!-- Pergunta 9 -->
+    <p>
+        <label>Tem restrições ou orientações de profissional de saúde para atividade física?</label><br> 
+        <input type="radio" name="exercicio_09" id="si_09"> <label for="si_09">SIM</label> 
+        <input type="radio" name="exercicio_09" id="no_09"> <label for="no_09">NÃO</label> <br> 
+        <label for="descricao_09">DETALHES</label> <input type="text" id="descricao_09"> 
+    </p>
+
+<!-- Pergunta 10 -->
+    <p>
+        <label>Existe outra informação de saúde relevante para a prática?</label><br> 
+        <input type="radio" name="exercicio_10" id="si_10"> <label for="si_10">SIM</label> 
+        <input type="radio" name="exercicio_10" id="no_10"> <label for="no_10">NÃO</label> <br>
+        <label for="descricao_10">DETALHES</label> <input type="text" id="descricao_10"> 
+    </p>
+    <br>
+        <p>ATENÇÃO: diante de dor/pressão no peito, desmaio ou falta de ar intensa/incomum, não iniciar ou interromper o exercício e procurar atendimento de saúde.</p>
+    <br>
+    <br>
+    <h2>04 • HISTÓRICO DE SAÚDE E LESÕES</h2>
+    <br>
+        <label for="condicoes-saude">Condições de saúde informadas:</label>
+        <input type="text" id="condicoes-saude" name="condicoes-saude">
+    <br>
+    <br>
+        <p>Lesoes anteriores</p>
+        <label for="lesoes-anteriores">local:</label>
+        <input type="text" id="lesoes-anteriores" name="lesoes-anteriores">
+    <br>
+    <br>
+    <label for="lesoes-anteriores">data:</label>
+        <input type="date" id="lesoes-anteriores" name="lesoes-anteriores">
+        <br>
+        <br>
+        <label for="lesoes-anteriores">tratamento e situação atual:</label>
+        <input type="text" id="lesoes-anteriores" name="lesoes-anteriores">
+    <br>
+    <br>
+        <label for="cirurgias-data">Cirurgias e data:</label>
+        <input type="text" id="cirurgias-data" name="cirurgias-data">
+    <br>
+    <br>
+        <label for="medicamentos">Medicamentos (nome):</label>
+        <input type="text" id="medicamentos" name="medicamentos">
+    <br>
+    <br>
+        <label for="alergias-info">Alergias ou outras informações relevantes:</label>
+        <input type="text" id="alergias-info" name="alergias-info">
+    <br>
+    <br>
+        <label for="profissional-saude">Profissional de saúde que acompanha (opcional):</label>
+        <input type="text" id="profissional-saude" name="profissional-saude">
+    <br>
+    <br>
+        <label for="ultima-avaliacao">Última avaliação:</label>
+        <input type="date" id="ultima-avaliacao" name="ultima-avaliacao">
+        <br>
+        <br>
+        <h2>05 • HÁBITOS E ROTINA</h2>
+    <br>
+        <label for="sono-horas">Sono:</label>
+        <input type="number" id="sono-horas" name="sono-horas" min="0" max="24">
+        <label>horas/noite</label>
+    <br>
+    <br>
+        <label>Qualidade:</label>
+        <input type="radio" id="qualidade-boa" name="qualidade-sono">
+        <label for="qualidade-boa">Boa</label>
+        
+        <input type="radio" id="qualidade-regular" name="qualidade-sono">
+        <label for="qualidade-regular">Regular</label>
+        
+        <input type="radio" id="qualidade-ruim" name="qualidade-sono">
+        <label for="qualidade-ruim">Ruim</label>
+    <br>
+    <br>
+        <label>Estresse percebido:</label>
+        <input type="radio" id="estresse-baixo" name="nivel-estresse">
+        <label for="estresse-baixo">Baixo</label>
+        
+        <input type="radio" id="estresse-moderado" name="nivel-estresse">
+        <label for="estresse-moderado">Moderado</label>
+        
+        <input type="radio" id="estresse-alto" name="nivel-estresse">
+        <label for="estresse-alto">Alto</label>
+    <br>
+    <br>
+        <label>Rotina:</label>
+        <input type="checkbox" id="rotina-sentado" name="rotina">
+        <label for="rotina-sentado">Sentado</label>
+        
+        <input type="checkbox" id="rotina-em-pe" name="rotina">
+        <label for="rotina-em-pe">Em pé</label>
+        
+        <input type="checkbox" id="rotina-trabalho-fisico" name="rotina" value="trabalho-fisico">
+        <label for="rotina-trabalho-fisico">Trabalho físico</label>
+        
+        <input type="checkbox" id="rotina-variada" name="rotina">
+        <label for="rotina-variada">Variada</label>
+    <br>
+    <br>
+        <label>Nível de atividade diária:</label>
+        <input type="radio" id="atividade-baixa" name="atividade-diaria">
+        <label for="atividade-baixa">Baixo</label>
+        
+        <input type="radio" id="atividade-moderada" name="atividade-diaria">
+        <label for="atividade-moderada">Moderado</label>
+        
+        <input type="radio" id="atividade-alta" name="atividade-diaria">
+        <label for="atividade-alta">Alto</label>
+    <br>
+    <br>
+        <label for="hidratacao">Hidratação habitual:</label>
+        <input type="text" id="hidratacao" name="hidratacao">
+    <br>
+    <br>
+        <label for="outras-atividades">Outras atividades físicas/esportes:</label>
+        <input type="text" id="outras-atividades" name="outras-atividades">
+    <br>
+    <br>
+        <label for="habitos-alimentares">Hábitos alimentares ou restrições relevantes (opcional):</label>
+        <input type="text" id="habitos-alimentares" name="habitos-alimentares">
+    <br>
+    <br>
+        <label for="observacoes-rotina">Observações sobre rotina, recuperação e disponibilidade:</label>
+        <input type="text" id="observacoes-rotina" name="observacoes-rotina">
+    <br>
+    <br>
+
+<!-- Este botão apenas APAGA o que foi digitado antes de enviar -->
+    <button type="reset">Limpar Campos</button>
+    <br>
+    <button type="submit" class="btn-enviar">Enviar Cadastro</button>
+                </form>
+            </div>
+            </details>
+            <br>
+            <br>
+        </section>
+        <br>
+        <br>
+        <section id="#cadastro">
+        <h1>Agende o seu Treino</h1>
+        <p>Clique no botão abaixo para abrir o formulário de inscrição.</p>
+        </section>
+        <section id="cadastro" class="agende-seu-treino">
+        <!-- Formulário retrátil -->
+        <details>
+            <summary>Abrir Formulário de Inscrição</summary>
+            
+            <form class="box-formulario" action="#" method="POST">
+                <div class="campo">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="campo">
+                    <label for="telefone">Telefone / WhatsApp:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+                <button type="submit" class="btn-enviar">Enviar Cadastro</button>
+            </form>
+        </details>
+        </section>
+        <br><br><br>
+        <section id="sobre">
+            <img src="/assets/personal sheila.jpeg" alt="ilustracao" style="border: 0 auto; width: 400px;">
+            <p> <i>Academica em Educação física e Analíse e desenvolvimento de sistemas.</i></p>
+            <h1>Olá, sou sheila B. Silva</h1>
+            <h2>Treino com orientação e propósito</h2>
+            <h2>focada em criar soluções estruturadas para o seu dia-a dia</h2>
+            <p>Sou uma pessoa curiosa, inteligente, determinada e de personalidade forte. Gosto de aprender, estudar assuntos diversos, ler livros de ficção, praticar atividades físicas e participar de conversas profundas. Tenho facilidade em aprender coisas novas e uma característica muito presente em mim é a vontade de ajudar as pessoas. Apesar de, às vezes, demonstrar uma postura mais séria e reservada, sou uma pessoa divertida, observadora e que valoriza o conhecimento e o desenvolvimento pessoal.
+            Em essência: sou alguém que não quer apenas conquistar um emprego ou obter um diploma. Quero construir uma trajetória própria, alcançar independência, transformar conhecimento em oportunidades e desenvolver projetos que tenham impacto positivo na sociedade. Quero crescer sem deixar de lado minha essência, minha curiosidade e minha vontade de aprender.
+            Sou uma pessoa que gosta de compreender o mundo, questionar, pesquisar e buscar respostas. valorizo e gosto de desafios, e estou em constante processo de autoconhecimento. Também tenho interesse em compreender diferentes culturas, crenças e formas de enxergar a vida.
+            Sou um profissional de Educação Física. Ajudo pessoas a criar uma rotina de exercícios possível, segura e alinhada aos seus objetivos. Minha filosofia é adaptar o treino à sua realidade: com constância, acompanhamento e sem fórmulas mágicas.</p>
+        </section>
+        <br>
+
+    <style>
+    .servicos {
+    background-color: #d4cbe0;
+    color: rgb(0, 0, 0);
+    display: flex;           /* Comando que coloca um ao lado do outro */
+    gap: 50px;               /* Diminuí de 200px para 50px para não afastar demais */
+    margin: 0;
+    justify-content: center, ; /* Centraliza os blocos na tela */
+    }
+</style>
+    <br>
+    </style>
+    <style>
+    .sev{
+        background-color: #d4cbe0;
+        color: rgb(0, 0, 0);
+        gap: 50px;               /* Diminuí de 200px para 50px para não afastar demais */
+        margin: 0;
+        justify-content: center,
+    }
+    </style>
+    <section class="sev">
+            <center><div><h2>Como posso ajudar</h2>
+            <p>Escolha o formato que combina com sua rotina.</p></div></center>
+            <br><br><br>
+    </section>
+        <section id="servicos" class="servicos">
+            <table border="0">
+                    <center>
+                    <tr>
+                        <th><h1>Treino presencial</h1></th>
+                        <th><h1>Consultoria online</h1></th>
+                        <th><h1>Acompanhamento híbrido</h1></th>
+                    </tr>
+                    <tr>
+                        <th><div>🏋️</div><h3>Sessões individuais ou em pequenos grupos, no domicílio, ao ar livre ou na academia.</h3></th>
+                        <th><div>📱</div><h3>Plano personalizado, suporte por WhatsApp e revisões regulares para acompanhar sua evolução.</h3></th>
+                        <th><div>🔄</div><h3>Combine sessões presenciais com orientação digital e tenha mais flexibilidade na rotina.</h3></th>
+                    </tr>
+        </table>
+        </center>
+        </section>
+        <br><br>
+        <section id="testemunhos">
+            <center><h2>Histórias de quem começou</h2>
+            <p>Depoimentos reais, compartilhados com autorização.</p></center>
+            <br>
+            <blockquote>
+                <img src="/assets/image.png" alt="em-construcao"style="display: block; margin: 0 auto; width: 500px;">
+            <footer>— [Nome da cliente]</footer>
+        </blockquote>
+        </section>
+    </main>
+</body>
+</html>
