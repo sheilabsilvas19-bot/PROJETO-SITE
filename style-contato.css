@@ -1,0 +1,43 @@
+body{
+    background-color: aquamarine;
+    color: rgb(236, 191, 137);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 20px;
+    font-style: italic;
+    pointer-events: all;
+}
+header{
+    background-color: rgba(5, 184, 184, 0.418);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500px;
+    font-size: 25px;
+    text-decoration: none;
+    word-spacing: 3px;
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+}
+table{
+    background-color: rgba(0, 255, 255, 0.671);
+    color: rgb(97, 105, 228);
+    gap: 500px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 8px 12px;
+    text-align: left;
+}
+div{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 10px;
+    font-style: italic;
+    pointer-events: all;
+    color: brown;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+
+}

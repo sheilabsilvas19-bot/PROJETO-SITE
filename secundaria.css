@@ -1,0 +1,79 @@
+body{
+    background-color: aqua;
+    color: rgb(19, 18, 18);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.alinhamento{
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500px;
+    font-size: 25px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    word-spacing: 3px;
+    list-style: none;
+    padding: 0;
+    gap: 50px;
+}
+
+.menu{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 50px;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    word-spacing: 3px;
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+}
+
+    header{
+    background-color: #8e69e6;
+    color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    }
+
+    .titulo{
+        color: darksalmon;
+margin-bottom: 0;
+margin-top: 0;
+line-height: 1;
+    }
+
+    .imagem{
+display: flex;
+  gap: 0; /* Espaço entre as imagens */
+margin-bottom: 20px;
+justify-content: center;
+    }
+ 
+    .banner{
+    width: 100%;            /* Faz a imagem ocupar toda a largura disponível */
+    aspect-ratio: 16 / 9;   /* Define a proporção exata de 16:9 */
+    object-fit: cover;      /* Corta as sobras sem esticar ou achatar a imagem */
+    display: block;         /* Remove espaços em branco extras abaixo da imagem */
+    margin: 0;
+}
+.container-details {
+    display: flex;
+  gap: 16px; /* Espaço entre os elementos */
+  align-items: flex-start; /* Evita que um estique quando o outro abrir */
+}
+
+.container-details details {
+  flex: 1; /* Faz com que todos tenham a mesma largura */
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 6px;
+}
